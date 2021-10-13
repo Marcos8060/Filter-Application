@@ -1,0 +1,102 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+nav{
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    height: 45px;
+  }
+  ul{
+    float: left;
+    margin-left: 5%;
+  }
+  .social_top{
+    float: right;
+    margin-right: 5%;
+  }
+  ul img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+  }
+  ul li{
+    padding-top: -50px;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+  }
+  ul li:first-child{
+   background-color: #B1B4CA; 
+  }
+  ul li:hover{
+    background-color: #B1B4CA;
+    color: white;
+  }
+  ul li a{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 45px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    color: white;
+  }
+  .top_social{
+    padding: 14px 15px;
+  }
+  .top_social a{
+    padding: 13px;
+    color: white;
+  }
+  .top_social a:hover{
+    color: #FF7D00;
+  }
+body{
+   color: black;
+   background-color:rgb(234,231,250);
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-position: top center;
+   position:relative;
+   height:98vh;
+   z-index:1;
+
+}
+body::after{
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity:0.85;
+    z-index: -1;
+}
+#About{
+    text-align: center;
+    margin-top: 20px;
+}
+.Container{
+    margin-left: 100px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+span{
+    color: #d21ed2;
+}
+.Container>p{
+    text-align: left;
+    margin-left: 600px;
+
+    
+}
+.Mission{
+    margin-left: 40px;
+    margin-top: 50px;
+    line-height: 30px;
+
+}
