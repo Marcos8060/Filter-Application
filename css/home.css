@@ -222,12 +222,12 @@ ul li a{
   }
 }.foot{
   margin-top: 380px;
-  background-color: #8277E7;
+  background-color: #EAE7FA;
   width: 100%;
   height: 80px;
   text-align: center;
 }
 .foot h4{
   padding-top: 20px;
-  color: white;
+  color: black;
 }
