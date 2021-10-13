@@ -103,8 +103,8 @@ td, th {
   text-align: left;
   padding: 12px;
 }
-tr:nth-child(even),table.list thead>tr {
-  background-color: #E5E5E5;
+tr:nth-child(even),table.list >tr {
+  background-color: #C59D5F
 }
 
 input[type=text], input[type=email] {
@@ -136,9 +136,10 @@ form div.form-action-buttons{
 
 a{
   cursor: pointer;
-  text-decoration: underline;
-  color: #0000ee;
-  margin-right: 4px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  margin: 10px;
 }
 
 .hide{
