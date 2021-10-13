@@ -128,9 +128,11 @@ span{
 @media screen and (max-width: 768px) {
   .app__bio .name{
       font-size: 30px;
+
   }
   .toggle{
     display: block;
+    
   }
   ul{
     position: fixed;
