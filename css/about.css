@@ -100,3 +100,14 @@ span{
     line-height: 30px;
 
 }
+.foot{
+    margin-top: 70px;
+    background-color: #8277E7;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+.foot h4{
+    padding-top: 20px;
+    color: white;
+}
