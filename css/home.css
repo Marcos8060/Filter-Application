@@ -35,14 +35,14 @@ body::after {
 /* Home body */
 .toggle{
   margin-left: 5%;
-  color: white;
+  color: #F1F5F8;
   float: left;
   line-height: 45px;
   cursor: pointer;
   display: none;
 }
 nav{
-  background-color: black;
+  background-color: #C59D5F;
   width: 100%;
   margin: auto;
   height: 45px;
@@ -67,10 +67,10 @@ ul li{
   position: relative;
 }
 ul li:first-child{
- background-color: #B1B4CA; 
+ background-color: #F1F5F8; 
 }
 ul li:hover{
-  background-color: #B1B4CA;
+  background-color: #F1F5F8;
   color: white;
 }
 ul li a{
@@ -80,7 +80,7 @@ ul li a{
   text-decoration: none;
   text-transform: uppercase;
   padding: 15px;
-  color: white;
+  color: black;
 }
 .top_social{
   padding: 14px 15px;
@@ -90,10 +90,11 @@ ul li a{
   color: white;
 }
 .top_social a:hover{
-  color: #FF7D00;
+  color: #C59D5F;
 }
 .app__bio .name {
   font-size: 50px;
+  color: #C59D5F;
 }
 .app__bio h1{
   display: block;
@@ -113,10 +114,13 @@ ul li a{
   left: 0;
   width: 0;
   height: 100%;
-  background-color: #B1B4CA;
+  background-color: #C59D5F;
   border-radius: 20px;
   animation: text_reveal_box 3s ease;
   animation-delay: .5s;
+}
+.anime{
+  color: white;
 }
 .app__bio h1:nth-child(1) span{
   animation-delay: 2s;
@@ -135,25 +139,34 @@ ul li a{
   text-align: center;
   margin-top: 55px;
   font-size: 20px;
+}.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-/* button a{
+button a{
   text-decoration: none;
   color: white;
-} */
+}
 .port{
   margin-top: 40px;
-  height: 40px;
-  width: 110px;
+  height: 55px;
+  width: 150px;
   border: none;
   background-color: transparent;
-  border: 2px solid #B1B4CA;
-  border-radius: 6px;
+  box-shadow: 3px 4px solid white;
+  border-radius: 10px;
   font-weight: 700;
   text-transform: uppercase;
-  color: white;
+  color: #C59D5F;
+}
+.port a{
+  text-decoration: none;
+  color: #C59D5F;
 }
 .port:hover{
-  background-color: #B1B4CA;
+  background-color: #C59D5F;
+  cursor: pointer;
   transition: 1.5s;
   color: white;
 }
@@ -176,7 +189,7 @@ ul li a{
 }
 @keyframes text_reveal {
   100%{
-    color: white;
+    color: #C59D5F;
   }
 }
 /* media querries */
@@ -211,6 +224,7 @@ ul li a{
      margin-left: 90%;
      align-items: center;
    }
+   
 }
 @media screen and (max-width: 500px){
   ul li{
@@ -221,8 +235,8 @@ ul li a{
     align-items: flex-end;
   }
 }.foot{
-  margin-top: 380px;
-  background-color: #EAE7FA;
+  margin-top: 350px;
+  background-color: #C59D5F;
   width: 100%;
   height: 80px;
   text-align: center;
