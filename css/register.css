@@ -1,57 +1,84 @@
+body > table{
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  height: 60vh;
+}
 body{
-   margin: 0;
-   padding: 0;
- 
+  background-color: #B1B4CA;
 }
-main{
-    background-color: #797777;
-    position: relative;
-    height: auto;
-    width: 800px;
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    
+h3{
+  text-align: center;
 }
-.register-page{
-    margin-left: 500px;
-    width: auto;
-    height: auto;
-    line-height: 100px;
-    letter-spacing: 0.09em;
-    color: #000000;
+.underline{
+  border-bottom: 3px solid black;
+  width: 90px;
+  margin: auto;
 }
-.register-page label{
-    font-size: 35px;
-    font-weight: bold;
-    padding: 30px;
+table{
+  border-collapse: collapse;
 }
-.register-page input{
-    width: 600px;
-    border-style: none;
-    border-bottom:5px solid black;
+table.list{
+  width:70%;
+  margin-bottom: 50px;
 }
-.register-us button{
-    width: 150px;
-    height: 50px;
-    color: black;
-    font-size: 30px;
-    font-weight: bold;
-    border: none;
-    margin-left: 100px;
+
+td, th {
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: left;
+  padding: 12px;
 }
-.register-std{
-    height: 700px;
+tr:nth-child(even),table.list thead>tr {
+  background-color: #E5E5E5;
 }
-footer{
-    width: auto;
-    background-color:#8277E7;
-    color: white;
-    text-align: center;
-    height: 40px;
-    font-size: 24px;
-    
-   
-    
+
+input[type=text], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
+
+input[type=submit]{
+  width: 30%;
+  background-color: #ddd;
+  color: #000;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form div.form-action-buttons{
+  text-align: right;
+}
+
+a{
+  cursor: pointer;
+  text-decoration: underline;
+  color: #0000ee;
+  margin-right: 4px;
+}
+
+.hide{
+  display:none;
+}
+.foot{
+  margin-top: 70px;
+  background-color: #8277E7;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+}
+.foot h4{
+  padding-top: 20px;
+  color: white;
+}
+[09:42, 13/10/2021] +254 702 854204: <footer class="foot">
+      <h4>©️CopyRight All Rights Reserved</h4>
+  </footer>

@@ -4,37 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/register.css">
-    <title>Filter application</title>
+    <link rel="stylesheet" href="css/register.css">
+    <title>Document</title>
 </head>
 <body>
-    <div class="main">
-    <div class="register-page">
-    <div class="register-us">
-    <h1>REGISTER WITH US</h1>
-   <form>
-    <label for ="Name">Name:</label>
-    <input type="text" id="input-name"><br>
-    <label for ="Email">Email:</label>
-    <input type="email" id="input-email"><br>
-    <label for ="Contact">Contact:</label>
-    <input type="text" id="input-contact"><br>
-     <button type="submit" Id="btn-submit">SUBMIT</button>  
-   </form>
-</div>
-<div class="register-std">
-    <h1>REGISTER STUDENT</h1>
-    <form>
-        <label for ="Name">Name:</label>
-        <input type="text" id="input-name"><br>
-        <label for ="Email">Email:</label>
-        <input type="email" id="input-email"><br>
-    </form>
-</div>
-</div>
-<footer>
-<p>&#169;Copyright All Rights Reserved.</p>
-</footer>
-    </div>
+    <h3>Register With Us</h3>
+    <div class="underline"></div>
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit()">
+                    <div>
+                        <label for="fullname">Full Name*</label>
+                        <input type="text" placeholder="Enter Name..." id="name">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Enter Email..." id="email">
+                    </div>
+                    <div>
+                        <label for="fullname">Classification</label>
+                        <input type="text" placeholder="Your class..." id="classification">
+                    </div>
+                    <div>
+                        <label for="fullname">Specialisation</label>
+                        <input type="text" placeholder="Your stack..." id="special">
+                    </div>
+                    <div class="form-action-buttons">
+                        <input type="submit" value="submit">
+                    </div>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <!-- second table -->
+    <table class="list" id="studentList">
+        <thead>
+            <tr>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Classification</th>
+                <th>Specialisation</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <footer class="foot">
+        <h4>©️CopyRight All Rights Reserved</h4>
+    </footer>
+    <!-- End of second table -->
+    <script src="app.js"></script>
 </body>
 </html>
